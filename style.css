@@ -1,0 +1,35 @@
+body {
+    background-color: rgba(95, 158, 160, 0.606);
+    margin: 30px; /* Adjusted to remove top and bottom margin separately */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 300;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+#main {
+    width: 50%; 
+    margin: 0 auto; 
+}
+
+#styled-image {
+    max-width: 100%;
+    display: block;
+    height: auto;
+    margin: 0 auto;
+    border: 3px solid #454343;
+    border-radius: 10px;
+  }
+  
+  #img-div {
+    background: white;
+    padding: 70px;
+    margin: 70px;
+    border-radius: 10px;
+  }
+
+footer {
+    margin-top: 20px;
+}
+
+
