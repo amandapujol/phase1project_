@@ -28,8 +28,22 @@ body {
     border-radius: 10px;
   }
 
-footer {
-    margin-top: 20px;
+  footer {
+    background-color: #2C3E50; /* Darker background color for contrast */
+    color: white; /* White text color for readability */
+    padding: 20px; /* Add some padding */
+    position: relative; /* Positioning context */
+    margin-top: 40px; /* Increased margin from the main content */
+    border-top: 3px solid #454343; /* Top border for separation */
 }
 
+#tribute-link {
+    color: #ECF0F1; /* Lighter link color */
+    text-decoration: none; /* Remove underline from the link */
+    font-size: 1.2em; /* Slightly larger font size */
+}
 
+#tribute-link:hover {
+    color: #F39C12; /* Change color on hover */
+    text-decoration: underline; /* Underline the link on hover */
+}
